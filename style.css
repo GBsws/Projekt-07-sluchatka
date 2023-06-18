@@ -16,4 +16,165 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+body{
+    max-width:1140px;
+}
+.uvod{
+    padding:50px 100px 0px 100px;
+    background-color:#f5f5f5;
+}
+.banner{
+    display:flex;
+    min-height:600px;
+    position:relative;
+}
+.upoutavka{
+    font-size:18px;
+    margin:8px;
+}
+h1{
+    font-size:44px;
+    font-weight:300;
+    line-height:1.2;
+    margin:0px;
+}
+.vlastnost{
+    display:flex;
+    border:1px solid black;
+    border-radius:10px;
+    margin:5px;
+}
+.vlastnosti{
+    display:flex;
+   flex-wrap:wrap;
+}
+.zbytek{
+    display:flex;
+    flex-direction:column;
+}
+.zbytek a{
+    color:#3498db;
+    font-size:13px;
+}
+.zbytek p{
+    font-size:15px;
+    line-height:1.5;
+}
+.logo{
+    height:50px;
+    width:90px;
+}
+.hlavicka{
+    display:flex;
+    justify-content: space-between;
+}
+.hlavicka-vpravo{
+    display:flex;
+}
+.menu{
+    padding:0px 25px;
+    margin:0px;
+}
+.menu li::marker {
+    color:#f5f5f5;
+}
+.menu-tlacitka{
+    display:flex;  
+}
+.tlacitko-primarni{
+    padding-right:5px;
+}
+ul{
+    display:flex; 
+}
+ul a{
+    text-decoration:none;
+    color:#959595;
+    font-size:13px;
+    padding-right:12px;
+}
+.menu-tlacitka a{
+    font-size:13px;
+    font-weight:600;
+    text-decoration:none;
+}
+button{
+    border-radius:5px;
+    padding:5px 10px;
+}
+.modry{
+    background-color:#3498db;
+    color:white;
+    font-weight:bold;
+}
+.prave{
+    background-color:white;
+}
+.velky{
+    background-color:#3498db;
+    color:white;
+    padding:15px 15px;
+    font-size:16px;
+    font-weight:600;
+}
+.minitext{
+    font-size:13px;
+}
+.minitext a{
+    color:#3498db;
+}
+.banner-text{
+    max-width:420px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height:1.5; 
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700; 
+}
+.banner-foto img{
+	display: block;
+	width: 90%;
+    height:auto;
+    position:absolute;
+    right:-10%;
+    top:0%;
+}
 
+.copyright{
+    font-size:13px;
+    padding:65px 50px 50px 50px;
+    color:white;
+}
+.kufrik,
+.slunce,
+.srdce,
+.zvuk{
+    height:30px;
+    width:30px;
+    margin:30px;
+}
+.paticka-menu{
+    font-size:13px;
+    padding:50px;
+    color:white;
+    font-weight:bold;
+    
+}
+.paticka{
+    display:flex;
+    justify-content:space-around;
+    background:rgb(25, 25, 25);
+}
+::marker{
+    color:rgb(25, 25, 25);
+}
+
+.paticka-menu a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
